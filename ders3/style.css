@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.big{
+    max-width: 1375px;
+    margin: auto;
+}
+h1{
+ text-transform: capitalize;   
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ text-align: center;
+ background-color: black;
+ color: white;
+ padding: 38px;
+ margin: 20px ;
+}
+.teg{
+    text-align: center;
+    margin:-8px auto;
+   
+    
+}
+.teg a{
+    color: white;
+    background-color: slategrey;
+    padding: 10px 56px;
+    
+}
+@media screen and (max-width:800px){
+    .teg a{
+        padding: 10px 2px;
+    }
+}
+.img{
+    margin:40px auto;
+    text-align: center;
+    border: 2px solid black;
+    max-width: 1330px;
+    
+}
+.pp{
+    text-align: center;
+    width: 97%;
+    margin: auto;
+    border: 1px solid black;
+}
+.teg2{
+    margin-top: 20px;
+}
+.teg2 a{
+    color: gray;
+    padding: 10px 56px;
+    
+    
+}
